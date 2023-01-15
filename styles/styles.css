@@ -111,3 +111,44 @@ header{
     padding-left: 10px;
     border-left: 5px solid #FF900E;
 }
+.feature-section-title>p{
+ 
+}
+.feature-section-subtitle{
+    padding: 20px 0px 10px;
+}
+.feature-box{
+    margin-top: 20px;
+    background-color: #FFFF;
+    width: 586px;
+    height: 171px; 
+    border-radius: 8px;
+    padding: 20px 20px 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.feature-box>p{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+}
+/* feature section architect image style */
+/* .feature-section-image{
+   
+} */
+.feature-section-image{
+margin-left:400px;
+position: relative;
+top: -1000px;
+}
+.feature-btn{
+    width: 342px;
+   height: 200px;
+   background: #FF900E;
+   border-radius: 8px;
+   border: 0;
+   font-size: 45px;
+   color: white;
+   position: relative;
+   left: 260px;
+   bottom: 30px;
+} 
