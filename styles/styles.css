@@ -136,9 +136,9 @@ header{
    
 } */
 .feature-section-image{
-margin-left:400px;
-position: relative;
-top: -1000px;
+  margin-top: -62%;
+  position: relative;
+  margin-left: 364px;
 }
 .feature-btn{
     width: 342px;
@@ -152,3 +152,4 @@ top: -1000px;
    left: 260px;
    bottom: 30px;
 } 
+/* fact section */
