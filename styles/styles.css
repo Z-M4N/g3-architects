@@ -244,8 +244,8 @@ header{
 .footer-container>p{
   padding: 35px;
 }
-/* media query */
-@media screen and (max-width:576px) {
+/* mobile responsive */
+@media screen and (max-width:412px) {
     .header-menu-ditails {
      display: none;
     }
@@ -255,13 +255,14 @@ header{
     .header-menu-bar{
         font-size: 30px;
     }
-   header{
+    header{
      padding: 0;
         
     }
     .header-menu-bar{
         margin: 0;
         padding: 20px;
+        font-size: 25px;
     }
     .header-title-container{
         margin: 0;
@@ -274,10 +275,58 @@ header{
         width: 100%;
         margin-left:40px ;
         row-gap: 30px;
-        margin-top: 200px;
+        margin-top: 100px;
     }
     .main-section-title{
         text-align: center;
         margin: 0;
+       
     }
+    .feature-sction-head{
+        padding: 0;
+
+    }
+    .feature-section-container{
+        margin: 0;
+    }
+    .feature-box{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        padding-left: 0px 10px;
+    }
+    .feature-section-image{
+        display: none;
+    }
+  .feature-section-container{
+    padding: 0;
+    text-align: center;
+    margin-top: 160px;
+  }
+  .fact-container{
+    flex-direction: column;
+    padding: 0;
+    margin: 40px;
+    margin-top: 200px;
+    row-gap: 20px;
+  }
+  .sponspors-title{
+   display: none;
+  }
+  .our-team-contaner{
+    display: none;
+  }
+  .sponspors{
+      display: none;
+ 
+   }
+   .footer-container{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+   }
+   .footer-container>p{
+     height: 100px;
+     padding: 20px;
+   }
 }
