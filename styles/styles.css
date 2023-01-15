@@ -131,11 +131,10 @@ header{
     color: #727272;
     margin-top: 10px;
 }
-/* feature section architect image style */
-/* .feature-section-image{
-   
-} */
-.feature-section-image{
+
+/* feature section */
+.feature-section-image
+{
   margin-top: -62%;
   position: relative;
   margin-left: 364px;
@@ -153,3 +152,57 @@ header{
    bottom: 30px;
 } 
 /* fact section */
+.about-fact{
+   position: relative;
+   top: 130px;
+}
+.about-fact>h5{
+   font-size: 45px;
+   font-weight: 600;
+}
+.about-fact>p{
+    font-size: 16px;
+    color: #727272;
+}
+.fact-container{
+   text-align: center;
+   display: flex;
+   padding: 10px 20px;
+   margin-top: 359px;
+}
+.fact-box{
+   padding: 40px;
+  border: 2px solid orange;
+   margin: 0 20px;
+   width: 290px;
+   height: 245px;
+   border-radius: 8px;
+    
+}
+.fact-box:hover{
+    background-color: #fbf0e3;
+}
+.fact-box>p{
+    color: #727272;
+    font-size: 23px;
+    font-weight: 600;
+}
+.fact-box>div{
+    font-size: 45px;
+}
+/* sponspors conainer style */
+.sponspors-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    position: relative;
+    bottom: 170px;
+}
+.sponspors-title{
+    text-align: center;
+    padding: 240px;
+    position: relative;
+    right: 90px;
+}
+.sponspors-title>h6{
+    font-size:45px;
+}
