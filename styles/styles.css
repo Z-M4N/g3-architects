@@ -202,10 +202,13 @@ header{
     text-align: center;
     padding: 240px;
     position: relative;
-    right: 90px;
+    right: 100px;
 }
 .sponspors-title>h6{
     font-size:45px;
+}
+.sponspors{
+    margin-left: 108px;
 }
 /* Our team box style */
 
