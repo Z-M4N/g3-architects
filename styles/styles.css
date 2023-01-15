@@ -206,3 +206,41 @@ header{
 .sponspors-title>h6{
     font-size:45px;
 }
+/* Our team box style */
+
+
+.our-team-contaner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   position: absolute;
+   left:120px;
+   background-repeat: no-repeat;
+   row-gap: 20px;
+   column-gap: 20px;
+}
+.my-team-btn{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border: 0;
+   font-size:20px;
+    font-weight: 400;
+    color: white;
+    margin-left:139%;
+    border-radius: 8px;
+}
+.footer-container{
+    text-align: center;
+    font-size: 16px;
+   margin-top: 60%;
+   background-color: #fbf0e3;
+   color:black;
+   width: 1440px;
+   height: 100px;
+   text-align: center;
+   margin-left: 15%;
+   margin-bottom: 40px;
+}
+.footer-container>p{
+  padding: 35px;
+}
