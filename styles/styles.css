@@ -244,3 +244,40 @@ header{
 .footer-container>p{
   padding: 35px;
 }
+/* media query */
+@media screen and (max-width:576px) {
+    .header-menu-ditails {
+     display: none;
+    }
+    .header-image{
+       display: none;
+    }
+    .header-menu-bar{
+        font-size: 30px;
+    }
+   header{
+     padding: 0;
+        
+    }
+    .header-menu-bar{
+        margin: 0;
+        padding: 20px;
+    }
+    .header-title-container{
+        margin: 0;
+        padding: 20px;
+    }
+    .main-section-images{
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin-left:40px ;
+        row-gap: 30px;
+        margin-top: 200px;
+    }
+    .main-section-title{
+        text-align: center;
+        margin: 0;
+    }
+}
